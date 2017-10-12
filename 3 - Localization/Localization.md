@@ -36,9 +36,9 @@ It's up to you to translate the English strings to Spanish in the Main.strings (
 >
 > 1. "My Friend Peter" -> "Mi Amigo Pedro" 
 > 2. "Date" -> "Fecha"
-> 3. "Over 1,000,000 conversations. What do you want to talk about today?" -> "Más de 1.000.000 de conversaciones. ¿Qué quieres hablar hoy?"
-> 4. "Hello, my name is Peter!" -> "¡Hola, me llamo Pedro!"
-> 5. "Hi, Peter! How are you?" -> "¡Hola Pedro! ¿Cómo estás?"
+> 3. "Hello, my name is Peter!" -> "¡Hola, me llamo Pedro!"
+> 4. "Hi, Peter! How are you?" -> "¡Hola Pedro! ¿Cómo estás?"
+> 5. "Over 1,000,000 conversations. What do you want to talk about today?" -> "Más de 1.000.000 de conversaciones. ¿Qué quieres hablar hoy?"
 > 6. "Reply" -> "Respuesta"
 
 ## Interlude
@@ -69,16 +69,18 @@ The process is the same as with the storyboard - take the English words and phra
 
 > Change the strings as follows:
 >
-> 1. "Hello, my name is Peter." -> "¡Hola, me llamo Pedro!" 
-> 2. "Hello, Peter. Nice to meet you!" -> "Hola Pedro. ¡Encantada de conocerte!"
-> 3. "How are you?" -> "¿Cómo estás?"
-> 4. "I am good. And you?" -> "Soy bueno. ¿Y usted?"
-> 5. "I'm doing well, thank you." -> "Lo estoy haciendo bien, gracias."
-> 6. "OK" -> "Vale"
-> 7. "Peter is tired" -> "Pedro está cansado"
-> 8. "Restart for more conversation." -> "Reinicie para más conversación."
-> 9. "See you tomorrow?" -> "¿Se veo mañana?"
-> 10. "Sure!" -> "¡Claro!"
+> 1. " conversations. What do you want to talk about today?" -> " de conversaciones. ¿Qué quieres hablar hoy?"
+> 2. "Hello, my name is Peter." -> "¡Hola, me llamo Pedro!" 
+> 3. "Hello, Peter. Nice to meet you!" -> "Hola Pedro. ¡Encantada de conocerte!"
+> 4. "How are you?" -> "¿Cómo estás?"
+> 5. "I am good. And you?" -> "Soy bueno. ¿Y usted?"
+> 6. "I'm doing well, thank you." -> "Lo estoy haciendo bien, gracias."
+> 7. "OK" -> "Vale"
+> 8. "Over " -> "Más de "
+> 9. "Peter is tired" -> "Pedro está cansado"
+> 10. "Restart for more conversation." -> "Reinicie para más conversación."
+> 11. "See you tomorrow?" -> "¿Se veo mañana?"
+> 12. "Sure!" -> "¡Claro!"
 
 Remember, you only change the values to the right of the equal sign. And if you do that, that's all you need to do at this point in order to add support for Spanish to your code! Simple enough, or what?
 
