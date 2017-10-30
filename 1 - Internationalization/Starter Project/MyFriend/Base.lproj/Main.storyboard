@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -105,7 +105,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi, Peter! How are you?" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbZ-sK-e96">
-                                                    <rect key="frame" x="16" y="8" width="243" height="99.5"/>
+                                                    <rect key="frame" x="23" y="8" width="236" height="99.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -152,11 +152,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="btnReply" destination="xen-tL-50K" id="dKG-bK-q16"/>
-                        <outlet property="lblDate" destination="BB2-KB-tgb" id="JPL-tv-dus"/>
-                        <outlet property="lblTagline" destination="tBp-Zh-bxz" id="80N-MM-SmT"/>
-                        <outlet property="lblTitle" destination="2xX-hK-EHd" id="3mx-kI-obu"/>
+                        <outlet property="dateLabel" destination="BB2-KB-tgb" id="JPL-tv-dus"/>
+                        <outlet property="replyButton" destination="xen-tL-50K" id="dKG-bK-q16"/>
                         <outlet property="table" destination="6BN-vA-bgw" id="PAe-59-uJf"/>
+                        <outlet property="taglineLabel" destination="tBp-Zh-bxz" id="80N-MM-SmT"/>
+                        <outlet property="titleLabel" destination="2xX-hK-EHd" id="3mx-kI-obu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

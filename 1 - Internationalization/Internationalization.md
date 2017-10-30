@@ -2,10 +2,20 @@
 
 ## Introduction
 
-Hey what’s up everybody, this is [insert name]. In today’s screencast, I'm/we are going to show you how to support multiple languages in your app.
+**Jessy**  
+Hello, iOS developer friends!  Jessy here!
 
-To support multiple languages, there's two main things that you need to do - Intenationalization and Localization. 
+**Catie**  
+Catie *here*!
 
+**Jessy**  
+In this screencast, we're are going to show you how to support multiple languages in your app.
+
+**Catie**  
+For that, there two main things that you need to take care of - Internationalization and Localization. 
+
+
+**Jessy**  
 Internationlization is the task of getting your app ready for supporting multiple languages. That's where you do things such as setting up Auto Layout so that your text will support strings of any length and extracting text strings from your app so that text is not hardcoded. Localization is the actual task of translating your app for a specific language or region.
 
 In this screencast, we'll be covering only the Internationalization side of things, but if you want to learn about Localization, we have a seprate screencast on that topic. So let's dive in!
