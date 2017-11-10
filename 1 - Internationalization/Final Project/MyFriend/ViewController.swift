@@ -72,7 +72,13 @@ final class ViewController: UIViewController {
   ]
   
   private var data = [
-    Row(type: .friend, text: "Hello, my name is Peter.")
+    Row(
+      type: .friend,
+      text: NSLocalizedString(
+        "Hello, my name is Peter.",
+        comment: "Translate text: Hello, my name is Peter."
+      )
+    )
   ]
   private var replyIndex = 0
 
@@ -80,8 +86,26 @@ final class ViewController: UIViewController {
 	@IBAction func addReply() {
 		guard replyIndex < replies.count
     else {
-			let alert = UIAlertController(title: "Peter is tired", message: "Restart for more conversation.", preferredStyle: .alert)
-			alert.addAction( UIAlertAction(title: "OK", style: .default) )
+			let alert = UIAlertController(
+        title: NSLocalizedString(
+          "Peter is tired",
+          comment: "Translate text: Peter is tired"
+        ),
+        message: NSLocalizedString(
+          "Restart for more conversation.",
+          comment: "Translate text: Restart for more conversation."
+        ),
+        preferredStyle: .alert
+      )
+			alert.addAction(
+        UIAlertAction(
+          title: NSLocalizedString(
+            "OK",
+            comment: "Translate text: OK"
+          ),
+          style: .default
+        )
+      )
 			present(alert, animated: true)
 			return
 		}

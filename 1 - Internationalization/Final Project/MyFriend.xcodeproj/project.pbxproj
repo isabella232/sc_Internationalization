@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		494A93D01FB4CD1800F37F9F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494A93CE1FB4CD1800F37F9F /* Localizable.strings */; };
+		496A90FC1FB5D25C0014DAEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 496A90FA1FB5D25C0014DAEA /* Localizable.strings */; };
 		DDE5408E1F7B577A00B219A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5408D1F7B577A00B219A7 /* AppDelegate.swift */; };
 		DDE540901F7B577A00B219A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5408F1F7B577A00B219A7 /* ViewController.swift */; };
 		DDE540931F7B577A00B219A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE540911F7B577A00B219A7 /* Main.storyboard */; };
@@ -18,8 +18,7 @@
 
 /* Begin PBXFileReference section */
 		49204F0A1FA725F1002E2E3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		494A93CF1FB4CD1800F37F9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		494A93D11FB4CD1D00F37F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		496A90FB1FB5D25C0014DAEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DDE5408A1F7B577A00B219A7 /* MyFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE5408D1F7B577A00B219A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE5408F1F7B577A00B219A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +59,7 @@
 		DDE5408C1F7B577A00B219A7 /* MyFriend */ = {
 			isa = PBXGroup;
 			children = (
-				494A93CE1FB4CD1800F37F9F /* Localizable.strings */,
+				496A90FA1FB5D25C0014DAEA /* Localizable.strings */,
 				DDE5408D1F7B577A00B219A7 /* AppDelegate.swift */,
 				DDE5408F1F7B577A00B219A7 /* ViewController.swift */,
 				DDE540911F7B577A00B219A7 /* Main.storyboard */,
@@ -132,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE540981F7B577A00B219A7 /* LaunchScreen.storyboard in Resources */,
-				494A93D01FB4CD1800F37F9F /* Localizable.strings in Resources */,
+				496A90FC1FB5D25C0014DAEA /* Localizable.strings in Resources */,
 				DDE540951F7B577A00B219A7 /* Assets.xcassets in Resources */,
 				DDE540931F7B577A00B219A7 /* Main.storyboard in Resources */,
 			);
@@ -154,11 +153,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		494A93CE1FB4CD1800F37F9F /* Localizable.strings */ = {
+		496A90FA1FB5D25C0014DAEA /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				494A93CF1FB4CD1800F37F9F /* en */,
-				494A93D11FB4CD1D00F37F9F /* Base */,
+				496A90FB1FB5D25C0014DAEA /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
