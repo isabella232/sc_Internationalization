@@ -4,7 +4,7 @@
 
 ## Run the App
 **Jessy 😺**  
-We'll be using an app called *MyFriend*, in which you can carry out conversations with your very own virtual friend. The app, as it stands, is fine if you are an English speaker, but what about those who speak other languages? 
+We'll be using an app called *MyFriend*, made by Fahim, in which you can carry out conversations with your very own virtual friend. The app, as it stands, is fine if you are an English speaker, but what about those who speak other languages? 
 
 **Catie 🐸**  
 Of course they should **not** be deprived of their very own virtual friend just because they were born in a non-English speaking country!
