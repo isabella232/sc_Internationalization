@@ -65,35 +65,42 @@ For now, to use these arguments to support multiple languages, we'll have to gen
 # Interlude 3
 ---
 
-
-
 ## Demo 5
 
-Localizable text strings are a list of text values used in your code that can be translated to other languages - similar to how it worked for the storyboard. Unfortunately, there is no way to generate this list from within the Xcode GUI. You have to use the command line for this.
+**Catie 🐸**  
+Open Terminal and navigate to your project folder using the `cd` command. For this app, it's the folder named MyFriend.
+> do that  
+>  (You have to be within the MyFriend folder inside the root MyFriend folder for the project - in my case the path was - ~/Code/RayWenderlich/Videos/Projects/MyFriend/MyFriend)
 
-> Open Terminal and navigate to your project folder using the `cd` command. (You have to be within the MyFriend folder inside the root MyFriend folder for the project - in my case the path was - ~/Code/RayWenderlich/Videos/Projects/MyFriend/MyFriend)
+Then use the `genstrings` command:
 
-Then type the following at the command prompt:
-
-```none
+```
 genstrings *.swift -o en.lproj
 ```
 
-This generates a file named Localizable.strings within the en.lproj folder. We used en.lproj here because English is our development language. You'd have to change the name according to the two-character language identifier for your development language.
+That generates a file named Localizable.strings within the en.lproj folder. We used "en" here because English is our development language. Otherwise, you'd use a different two-character language identifier for *your* development language.
 
-If you are not sure about what the two-character identifier should be, look inside the **MyFriends** sub-folder under the project root. It should have a Base.lproj folder and another .lproj folder *after* you add support for your development language to the storyboard. That's the folder name you should pass to the `genstrings` command.
+**Jessy 😺**   
+If you are not sure about what the two-character identifier should be, look inside the **MyFriends** sub-folder under the project root. 
 
-If you check the project in Xcode, you won't see the Localizable.strings file yet. You need to add it to the project now.
+> show that for us.
 
+It should have a Base.lproj folder and another .lproj folder *after* you add support for your development language to the storyboard. That's the folder name you should pass to the `genstrings` command.
+
+**Catie 🐸**  
 > Use the **Add Files to "MyFriend"…** menu option to add the Localizable.strings file and then in the **File inspector** check the  **Base** option under the **Localization** section.
 
-Now the file is in your project and is ready for localization in the future.
+If you check the project in Xcode, you won't see the Localizable.strings file yet. You still need to add it to the project. After you do that, your project will be ready for localization in the future.
 
-If you check the contents of the file, you'll notice that each string from your code is represented as a pair of values separated by an equal (=) sign. Since the development language is English, both values are the same. If you were translating to another language, you would replace the text on the right of the equal sign with the translated text.
+##Localizable.strings
+**Jessy 😺**  
+If you check the contents of the file, you'll notice that each string from your code is represented as a pair of values separated by an equals sign. Since the development language is English, both values are the same. If you were translating to another language, you would replace the text on the right of the equals sign with the translated text.
 
-Remember not to change the text on the left since that string has to match what is in your code - the value passed to the `NSLocalizedString` method. You should change the value on the left of the equal sign only if you change it in your code as well. Otherwise, leave it alone.
+**Catie 🐸**  
+The string on the left has to match what's in your code: it's the "key" you passed to an `NSLocalizedString` initializer. So, only change it here if it gets changed in your code as well. 
 
-And what about the comment parameter passed to `NSLocalizedString`? We said that the purpose of the comment will become clear later? See the comment above each string pair? That's the comment you passed in. It can be useful in giving instructions to the translator - for example, if you have a one word string like "fly" - the translator might not know whether you mean fly as in the insect or the action. The comments can be used to pass the translator information that will help them with their task.
+**Jessy 😺**  
+And, if you didn't notice by now, the "comment" arguments, to go with your keys, are now featured above the string pairs.
 
 ---
 # Conclusion 

@@ -29,17 +29,19 @@ All new Xcode projects are preconfigured to support internationalization. So, yo
 
 After you've extracted the storyboard text, it's time to work with the strings in your Swift code!
 
-➠Interlude 2
+➠Interlude 3
 ➠😺JESSY😺 
+Localizable strings are a list of text values used in your code that can be translated to other languages - which is similar to what you saw with the storyboard. Unfortunately, there is no way to generate this list from within the Xcode GUI. You have to use the command line.
 
 
 ➠Conclusion
-That’s everything I we would like to cover in this screencast regarding internationalization. Your project is now ready to be localized.
+➠🐸CATIE🐸
+Comments can be useful for giving instructions to whoever's acting as your translator. For example, if you have a homonym, like "fly" - the translator might not know whether you mean the insect or the act of flying. A comment can clear that up.
 
-By now you should have a good idea of how to take any iOS project and set it up for supporting multiple languages. 
 
-While this won't make you a suave international man (or woman) of mystery, it will certainly help you make an app that appeals to a lot more people since it will speak their language!
 
-Do take a look at our other screencasts if you are interested in learning more about Internationlization or any other mobile development related topics.
-
-Adios, Ciao, and see ya!
+👯JESSY😺 That’s everything we'll cover in this screencast, on internationalization. Your project is now ready to be localized.
+👯CATIE🐸 By now you should have a good idea of how to take any iOS project and set it up for supporting multiple languages. 
+👯JESSY😺  While this won't make you a suave international man (or woman) of mystery, it will certainly help you make an app that appeals to a lot more people since it will speak their language!
+👯CATIE🐸 Adios!
+👯JESSY😺 Ciao!
