@@ -29,12 +29,8 @@ All new Xcode projects are preconfigured to support internationalization. So, yo
 
 After you've extracted the storyboard text, it's time to work with the strings in your Swift code!
 
-
-➠Interlude 3
+➠Interlude 2
 ➠😺JESSY😺 
-For a small project like *MyFriend*, you could simply go through your text and replace the string values by hand, as we showed.
-
-But what if you have tens or hundreds of files, in a large project, where each file has thousands of lines of code? Fortunately, there's another way to handle this.
 
 
 ➠Conclusion

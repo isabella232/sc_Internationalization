@@ -59,39 +59,13 @@ The Main.strings (English) file contains the English translations for the text v
 
 To support multiple languages via code, you need to create `NSLocalizedString`s. Its simplest initializer takes two arguments. The first, called "key", is the string to be translated. The second is a comment about the key. We'll get to the significance of that shortly.
 
+For now, to use these arguments to support multiple languages, we'll have to generate a list of localizable text strings.
+
 ---
 # Interlude 3
 ---
 
-# Demo 4
-**Catie 🐸**  
-Instead of scanning each source file for string values and modifying them individually, you can use Xcode's super-useful search and replace functionality to do the same thing.
 
-Simply switch to the **Find navigator** and change the mode from Find to **Replace > Regular Expression**. 
-
-> do that
-> type **".+?"**
-
-Type *this* in the search box, and press **return** to search.
-
-**Jessy 😺**   
-You'll see a list of all the text strings in your code. You'll notice that you have a **Replace All** button and you might be tempted to replace all strings immediately. Even if you knew what to replace the found values with, don't do it … it's a trap!
-
-Look at the found strings a bit more closely - especially the files. Do you notice that the Main.strings file with your translations for the storyboard is in there too? You certainly don't want that file modified, right?
-
-Also, if you look closer, you'll notice that there are things like the table view cell identifiers in **ViewController.swift** (line 93 and 95) - you don't want those translated either. So going with the **Replace All** option is an all-around bad idea.
-
-However, you can still save a bunch of time by selectively replacing values. Just select the items that you really want to replace, type in the replace value into the appropriate box and use the **Replace** button.
-
-But what do you use as the replacement value, you ask? How about something like:
-
-> **NSLocalizedString("$1", comment: "Translate text: $1")**
-
-That should get you where you need to be. Of course, do remember that your comments, the ones passed to `NSLocalizedString`, might not be very useful if you go for the search and replace option. But you can't have everything, right?
-
-## Interlude
-
-How does `NSLocalizedString` use the text values you pass to it to support multiple languages? To find the answer to that question, you have to first generate a list of localizable text strings. Would you like to learn how?
 
 ## Demo 5
 
