@@ -7,73 +7,43 @@
 
 
 ➠😺JESSY😺  
-Internationalization is the task of getting your app *ready* for supporting multiple languages. This involves setting up Auto Layout so that your text will support strings of any length. You'll also extract text strings from your app so that text is not hardcoded. 
+Internationalization is the task of getting your app *ready* for supporting multiple languages. One thing this will involve is setting up Auto Layout so that your text will support strings of any length. You'll also extract text strings from your app so that text is not hardcoded. 
 
 
-➠👯CATIE🐸
+➠🐸CATIE🐸
 Localization is the task of translating your app for a specific language or region.
 
 In this screencast, we'll be covering only the Internationalization side of things. We'll cover Localization in another screencast.
 
 
 ➠Interlude 1
-➠👯CATIE🐸
+➠🐸CATIE🐸
 As you see, the UI for *MyFriend* already uses Auto Layout, and so, does not need any further work. But if your app does not use Auto Layout, your first step in the quest for internationalization would be to add Auto Layout support. We have a couple of video courses on Auto Layout if you need to learn about it.
 
-The next step is to go through your code to extract the text displayed to the user. 
+The next step is to go through your code and get any user-facing text ready for localization. 
 
 
 ➠Interlude 2
-➠👯CATIE🐸
-All new Xcode projects are generally preconfigured to support internationalization. So, your storyboards always are set for Base internationalization and will support the user's development language as the default language. In our case, the development language was English. For you, it might be something else.
+➠😺JESSY😺 
+All new Xcode projects are preconfigured to support internationalization. So, your storyboards always are set for Base internationalization, supporting the user's development language as the default language. In our case, the development language was English. For you, it might be something else.
 
-After you've extracted the storyboard text, it's time to extract any strings used in code!
-
-
+After you've extracted the storyboard text, it's time to work with the strings in your Swift code!
 
 
+➠Interlude 3
+➠😺JESSY😺 
+For a small project like *MyFriend*, you could simply go through your text and replace the string values by hand, as we showed.
+
+But what if you have tens or hundreds of files, in a large project, where each file has thousands of lines of code? Fortunately, there's another way to handle this.
 
 
-➠🐸CATIE🐸  
-When you're creating an app, you want to make sure the layout works on all size of iOS device.  
-[Slide 01 - In] As of late 2017, you've got 4 iPhone sizes to contend with. 
+➠Conclusion
+That’s everything I we would like to cover in this screencast regarding internationalization. Your project is now ready to be localized.
 
-➠[Slide 02] Not only does your app need to work in portrait mode all of these phones, you need to consider landscape as well. 
+By now you should have a good idea of how to take any iOS project and set it up for supporting multiple languages. 
 
-➠[Slide 03] Even if you choose not to support landscape on iPhone, what about larger devices, like the iPad and iPad Pro. These devices have a much larger screen with a completely different aspect ratio. 
+While this won't make you a suave international man (or woman) of mystery, it will certainly help you make an app that appeals to a lot more people since it will speak their language!
 
-➠[Slide 04] iPads also have a quite handy feature called "split screen" that lets you run two apps at once, side by side. Your app might be running at one third, one half, or two thirds the total screen size. 
+Do take a look at our other screencasts if you are interested in learning more about Internationlization or any other mobile development related topics.
 
-
-➠😺JESSY😺
-[Slide 05] You could write code to calculate the size of all of your views to support all of these situations. That would take you an awfully long time, but luckily! There's no need to do that.
-
-➠[Slide 06] This is what Auto Layout is for. Auto Layout offers you powerful tools to define the layout of your app so that it will adjust to fit on any screen size.
-
-
-➠🐸CATIE🐸 
-[Slide 07] In this section, you'll focus on one of Apple's latest Auto Layout tools, the Stack View. 
-
-Stack Views let you quickly group different views, and customize their layout with a few simple properties like alignment and spacing.
-
-➠Stack views can be quite powerful tools for building very complex layouts if you dig into them.
-
-[Slide 08] We'll also show you one of the earliest tools that Apple introduced to help create flexible layouts: Autoresizing.
-
-
-➠😺JESSY😺
-[Slide 09] In section two, you'll learn about the basic building block of auto layout - the layout constraint. Stack Views and Autoresizing all turns into constraints behind the scene.
-
-
-➠(RW)
-👯JESSY😺  That’s it for this introductory video. [Slide 10]
-👯CATIE🐸  We'd like to give a big thanks to Jerry Beers.  
-👯JESSY😺  This iOS 11 course is an update to his iOS 10 course of the same name. 
-👯CATIE🐸  You can thank Jerry for the excellent app theme we'll be working with: Pirates!
-👯JESSY😺  Coming up next, find out what autoresizing is!
-
-➠(Udemy)
-👯JESSY😺  That’s it for this introductory video.
-👯CATIE🐸  In these next two sections, we'll work on an app that every modern-day pirate needs - a handbook app. 
-👯JESSY😺  We'll make it work on any device in any orientation.
-👯CATIE🐸  Coming up next, find out what autoresizing is!
+Adios, Ciao, and see ya!
