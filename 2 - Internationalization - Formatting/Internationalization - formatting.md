@@ -1,32 +1,14 @@
-# Screencast - Internationalization: Formatting
+# Intro
+---
 
-## Introduction
+# Demo 1
+JESSY😺
+> Show the code from lines **26 - 28** in **ViewController.swift**.
 
-Hey what’s up everybody, this is [insert name]. In today’s screencast, I'm/we are going to show you how to display numbers and dates correctly when supporting multiple languages in your app.
-
-To support multiple languages, there's two main things that you need to do - Intenationalization and Localization. 
-
-Internationlization is the task of getting your app ready for supporting multiple languages. That's where you do things such as setting up Auto Layout so that your text will support strings of any length and extracting text strings from your app so that text is not hardcoded. Localization is the actual task of translating your app for a specific language or region.
-
-In this screencast, we'll cover a sub-task of Internationalization - making sure that dates and numbers display according to the user's region/language, but if you want to learn about Localization, we have a seprate screencast on that topic. 
-
-So let's dive in!
-
-## Demo 1
-
-For this screencast, we'll be using an app called *MyFriend*. It's a virtual friend app where you can carry out conversations with your very own virtual friend. 
-
-The project has already had basic Internationalization support added. This means that all text values displayed to the user have been seprated out so that they can be translated to another language. If you are interesed in this part of the process, you might want to watch our other screencast on this topic first.
-
-But extracting the text values to be translated is just one part of the Internationalization process. Sure, it could be the only part if the displayed string values are simply text, but if your string values contain dates, times, or numbers, you also have to consider how they display under each language or region.
-
-Numbers and dates are not displayed the same way everywhere across the globe - in some countries they display the day before the month for a date, and in others they use periods as the thousand separator when displaying long numbers. You have to account for all of these variances.
-
-The way information should be represented for a particuar region is represented by the `Locale` object. So, when you want a date formatter for a particular locale, you can pss the date formatter the specific locale you want.
+The way information should be represented for a particular region is represented by the `Locale` object. So, when you want a date formatter for a particular locale, you can pass the date formatter the specific locale you want.
 
 On the other hand, if you want the date to be displayed for the current locale as per the device you can do that too. In fact, that's what MyFriend already does.
 
-> Show the code from lines **26 - 28** in **ViewController.swift**.
 
 This code first sets the `DateFormatter` used to create a display string based on a date to the current locale. So, if you are in the US, the date will dispay in the m/d/y format, but in the UK for example, the date would display as d/m/y.
 
@@ -80,6 +62,9 @@ let number = NSNumber(integerLiteral: numberOfConversations)
 let text = NumberFormatter.localizedString(from: number, number: NumberFormatter.Style.decimal)
 lblTagline.text = NSLocalizedString("Over ", comment: "") + text + NSLocalizedString(" conversations. What do you want to talk about today?", comment: "")
 ```
+
+/* No comment provided by engineer. */
+"Over \(numberOfConversations)" = "Over \(numberOfConversations)";
 
 The above splits out the text portions so that they can be easily translated individually and then formats the number according to the current locale so that it displays correctly no matter where in the world the user is.
 
