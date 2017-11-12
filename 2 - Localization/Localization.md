@@ -17,7 +17,7 @@ Then, click the plus button under the **Localizations** section, and choose a la
 > do that (**Spanish (es)**)
 > show dialog
 
-A dialog will that come up, allowing you to custom-tailor what files will be localized, and from what reference language. The defaults work fine for this project.
+A dialog will come up, allowing you to custom-tailor what files will be localized, and from what reference language. The defaults work fine for this project.
 
 ---
 # Interlude 1
@@ -27,12 +27,13 @@ A dialog will that come up, allowing you to custom-tailor what files will be loc
 
 **Catie 🐸**  
 
-In the Project navigator, expanding `Main.storyboard will` show the base file and any localized strings files you've created.
+In the Project navigator, expanding `Main.storyboard` will show the base file and any localized strings files you've created.
 > do that
 
 These files contain the strings that will be displayed in the storyboard's views.
 
 > open both files (one as assistant)
+
 To start off with, our new language's text is the same as whatever you used as a reference, in the previous dialog. It's up to you to perform an actual translation, in the new language's `Main.strings` file.
 
 > close assistant

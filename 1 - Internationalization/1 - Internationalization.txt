@@ -15,32 +15,33 @@ Localization is the task of translating your app for a specific language or regi
 
 In this screencast, we'll be covering only the Internationalization side of things. We'll cover Localization in another screencast.
 
-Jessy and I give many thanks to Fahim Farook for putting together the materials we'll be using in this, and *that*, screencast!
+➠Jessy and I give many thanks to Fahim Farook for putting together the materials we'll be using in this, and *that*, screencast!
 
 
-➠Interlude 1
+Interlude 1
 ➠🐸CATIE🐸
 As you see, the UI for *MyFriend* already uses Auto Layout, and so, does not need any further work. But if your app does not use Auto Layout, your first step in the quest for internationalization would be to add Auto Layout support. We have a couple of video courses on Auto Layout if you need to learn about it.
 
 The next step is to go through your code and get any user-facing text ready for localization. 
 
 
-➠Interlude 2
+Interlude 2
 ➠😺JESSY😺 
 All new Xcode projects are preconfigured to support internationalization. So, your storyboards always are set for Base internationalization, supporting the user's development language as the default language. In our case, the development language was English. For you, it might be something else.
 
 After you've extracted the storyboard text, it's time to work with the strings in your Swift code!
 
-➠Interlude 3
+Interlude 3
 ➠😺JESSY😺 
 Localizable strings are a list of text values used in your code that can be translated to other languages - which is similar to what you saw with the storyboard. Unfortunately, there is no way to generate this list from within the Xcode GUI. You have to use the command line.
 
 
-➠Conclusion
+Conclusion
 ➠🐸CATIE🐸
 Comments can be useful for giving instructions to whoever's acting as your translator. For example, if you have a homonym, like "fly" - the translator might not know whether you mean the insect or the act of flying. A comment can clear that up.
 
 
+➠Together
 
 👯JESSY😺 That’s everything we'll cover in this screencast, on internationalization. Your project is now ready to be localized.
 👯CATIE🐸 By now you should have a good idea of how to take any iOS project and set it up for supporting multiple languages. 

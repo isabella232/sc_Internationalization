@@ -5,19 +5,19 @@
 👯CATIE🐸 We'll make the assumption that you've already internationalized your app, so that all appropriate text is ready be localized. We've got another screencast on that topic if you need to learn it.
 👯JESSY😺 We'll be using an app called *MyFriend*, made by Fahim Farook, in which you can carry out conversations with a virtual friend. Thanks to Fahim for putting together such delightful materials!
 
-➠Interlude 1
+Interlude 1
 ➠😺JESSY😺 
 At this point, you'll have new localizable strings files for the new language you'll be supporting. However, Xcode does have the ability to automatically translate anything for you.
 
-You still have the task of adding the necessary translations to your new files. Let's start with the storyboard.
+➠You still have the task of adding the necessary translations to your new files. Let's start with the storyboard.
 
-➠Interlude 2
+Interlude 2
 ➠🐸CATIE🐸
 With your storyboard working correctly, it's time to turn your attention to your code.
 
 If you've finished the internationalization process, all the applicable text in your code will already have been extracted into a localizable strings file. The process you'll go through is the same as with the storyboard.
 
-➠Interlude 3
+Interlude 3
 ➠😺JESSY😺 
 Now there's just one tiny, but important detail left. Even though we've changed the language of our device, the App's name is still in English, on the Home screen. To localize it, you have to add a special strings file which will let you override the settings in your **Info.plist**. 
 
