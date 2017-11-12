@@ -1,0 +1,6 @@
+➠3 - Internationalization
+
+👯CATIE🐸 Hey, everybody! I'm Catie! With me here is Jessy!
+👯JESSY😺 In this screencast, we're going to show you how to how to add support for a second language in your app.
+👯CATIE🐸 We'll make the assumption that you've already internationalized your app, so that all appropriate text is ready be localized. 
+👯JESSY😺 We'll be using an app called *MyFriend*, made by Fahim Farook, in which you can carry out conversations with a virtual friend. Thanks to Fahim for putting together such delightful materials!

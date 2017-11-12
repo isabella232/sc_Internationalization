@@ -4,7 +4,7 @@
 👯JESSY😺 In this screencast, we're going to show you how to display numbers and dates according to a user's region or language. It's a sub-task of the Internationalization process.
 
 ➠🐸CATIE🐸
- We'll make the assumption that you've already taken the first internationalization steps, including getting all your text ready for localization. It's possible those could be the *only* steps you need, but if your text contain dates, times, or numbers, you also have to consider how they display for each language and region you'll be supporting.
+We'll make the assumption that you've already taken the first internationalization steps, including getting all your text ready for localization. It's possible those could be the *only* steps you need, but if your text contain dates, times, or numbers, you also have to consider how they display for each language and region you'll be supporting.
 
 Numbers and dates are not displayed the same way everywhere across the globe. Differences include whether the month or day appears first, in a date, and if a period or comma is used as the thousands separator for large enough numbers.
 

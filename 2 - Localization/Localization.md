@@ -1,14 +1,10 @@
-# Screencast - Localization
+# Intro
+---
+# Demo 1
 
-## Introduction
+**Catie 🐸**  
+Your virtual friend can already speak English, but now you'll givem him/her the ability to speak in Spanish too.
 
-Hey what’s up everybody, this is [insert name]. In today’s screencast, I'm/we are going to show you how to add support for a second language in your app.
-
-In this screencast, you'll add Spanish support to our demo app. Do note that this app has already been internationalized in preparation for localization. If you want to larn more about the Internationalization side of things we do have a seprate screencast on that topic. So let's dive in!
-
-## Demo 1
-
-For this screencast, we'll be using an app called *MyFriend*. It's a virtual friend app where you can carry out conversations with your very own virtual friend. Your virtual friend can already speak English, but now you'll givem him/her the ability to speak in Spanish too.
 
 When adding support for a new language to your app, the first thing you need to do is to add the new language to your Xcode project.
 
