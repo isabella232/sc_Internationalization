@@ -45,15 +45,15 @@ final class ViewController: UIViewController {
   }
   
   private var replies = [
-    "Hello, Peter. Nice to meet you!",
-    "How are you?",
+    NSLocalizedString("Hello, Peter. Nice to meet you!", comment: "Translate text: Hello, Peter. Nice to meet you!"),
+    NSLocalizedString("How are you?", comment: "Translate text: How are you?"),
     "I am good. And you?",
     "I'm doing well, thank you.",
     "See you tomorrow?",
     "Sure!"
   ]
   private var data = [
-    Row(type: .friend, text: "Hello, my name is Peter.")
+    Row(type: .friend, text: NSLocalizedString("Hello, my name is Peter.", comment: "Translate text: Hello, my name is Peter."))
   ]
   private var replyIndex = 0
 
@@ -61,8 +61,8 @@ final class ViewController: UIViewController {
 	@IBAction func addReply() {
 		guard replyIndex < replies.count
     else {
-			let alert = UIAlertController(title: "Peter is tired", message: "Restart for more conversation.", preferredStyle: .alert)
-			alert.addAction( UIAlertAction(title: "OK", style: .default) )
+      let alert = UIAlertController(title: NSLocalizedString("Peter is tired", comment: "Translate text: Peter is tired"), message: "Restart for more conversation.", preferredStyle: .alert)
+      alert.addAction( UIAlertAction(title: NSLocalizedString("OK", comment: "Translate text: OK"), style: .default) )
 			present(alert, animated: true)
 			return
 		}
