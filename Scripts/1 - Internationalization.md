@@ -56,13 +56,13 @@ The next step is to go through your code and get any user-facing text ready for 
 > Show the values in the storyboard and in the code, especially the array of responses at the top of ViewController.swift
 
 **Jessy 😺**  
-Some of the text are in the storyboard, and some is mixed with the Swift code. In this app, all of it's in English.
+Some of the text is in the storyboard, and some is mixed with the Swift code. In this app, all of it's in English.
 
 **Catie 🐸**  
 Having hardcoded strings is bad if you want to display text in different languages. You need a way to extract these strings so that you can translate the values for the various languages your app will support.
 
 ## Storyboard
-For a storyboard, this is simple enough to do. Xcode can be very helpful here. Just open it, switch to the **File inspector**, and then under the **Localization** section, check the box next to **English**. Make sure that the value next to English says **Localizable Strings**. 
+For a storyboard, this is simple enough to do. Xcode can be very helpful here. Just select it in the **File inspector**, and then under the **Localization** section, check the box next to **English**. Make sure that the value next to English says **Localizable Strings**. 
 
 This will ensure that Xcode extracts all string values used in the storyboard into a separate file so that you can translate the values depending on the language.
 
