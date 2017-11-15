@@ -95,7 +95,7 @@ For now, to use these arguments to support multiple languages, we'll have to gen
 # Interlude 3
 
 ➠😺JESSY😺  
-Localizable strings are a list of text values used in your code that can be translated to other languages - which is similar to what you saw with the storyboard. Unfortunately,
+Localizable strings are a list of text values used in your code that can be translated to other languages - which is similar to what you saw with the storyboard. Unfortunately, there is no way to generate this list from within the Xcode GUI. You have to use the command line.
 
 ---
 
