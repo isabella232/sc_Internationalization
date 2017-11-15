@@ -12,7 +12,7 @@
 "YbZ-sK-e96.text" = "¡Hola Pedro! ¿Cómo estás?";
 
 /* Class = "UILabel"; text = "Over 1,000,000 conversations. What do you want to talk about today?"; ObjectID = "tBp-Zh-bxz"; */
-"tBp-Zh-bxz.text" = "Más de 1.000.000 conversaciones. ¿Qué quieres hablar hoy?";
+"tBp-Zh-bxz.text" = "Más de 1.000.000 de conversaciones. ¿Qué quieres hablar hoy?";
 
 /* Class = "UIButton"; normalTitle = "Reply"; ObjectID = "xen-tL-50K"; */
-"xen-tL-50K.normalTitle" = "Respuestra";
+"xen-tL-50K.normalTitle" = "Respuesta";
