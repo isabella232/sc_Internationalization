@@ -45,15 +45,40 @@ final class ViewController: UIViewController {
   }
   
   private var replies = [
-    NSLocalizedString("Hello, Peter. Nice to meet you!", comment: "Translate text: Hello, Peter. Nice to meet you!"),
-    NSLocalizedString("How are you?", comment: "Translate text: How are you?"),
-    "I am good. And you?",
-    "I'm doing well, thank you.",
-    "See you tomorrow?",
-    "Sure!"
+    NSLocalizedString(
+      "Hello, Peter. Nice to meet you!",
+      comment: "Translate text: Hello, Peter. Nice to meet you!"
+    ),
+    NSLocalizedString(
+      "How are you?",
+      comment: "Translate text: How are you?"
+    ),
+    NSLocalizedString(
+      "I am good. And you?",
+      comment: "Translate text: I am good. And you?"
+    ),
+    NSLocalizedString(
+      "I'm doing well, thank you.",
+      comment: "Translate text: I'm doing well, thank you."
+    ),
+    NSLocalizedString(
+      "See you tomorrow?",
+      comment: "Translate text: See you tomorrow?"
+    ),
+    NSLocalizedString(
+      "Sure!",
+      comment: "Translate text: Sure!"
+    )
   ]
+  
   private var data = [
-    Row(type: .friend, text: NSLocalizedString("Hello, my name is Peter.", comment: "Translate text: Hello, my name is Peter."))
+    Row(
+      type: .friend,
+      text: NSLocalizedString(
+        "Hello, my name is Peter.",
+        comment: "Translate text: Hello, my name is Peter."
+      )
+    )
   ]
   private var replyIndex = 0
 
@@ -61,8 +86,26 @@ final class ViewController: UIViewController {
 	@IBAction func addReply() {
 		guard replyIndex < replies.count
     else {
-      let alert = UIAlertController(title: NSLocalizedString("Peter is tired", comment: "Translate text: Peter is tired"), message: "Restart for more conversation.", preferredStyle: .alert)
-      alert.addAction( UIAlertAction(title: NSLocalizedString("OK", comment: "Translate text: OK"), style: .default) )
+			let alert = UIAlertController(
+        title: NSLocalizedString(
+          "Peter is tired",
+          comment: "Translate text: Peter is tired"
+        ),
+        message: NSLocalizedString(
+          "Restart for more conversation.",
+          comment: "Translate text: Restart for more conversation."
+        ),
+        preferredStyle: .alert
+      )
+			alert.addAction(
+        UIAlertAction(
+          title: NSLocalizedString(
+            "OK",
+            comment: "Translate text: OK"
+          ),
+          style: .default
+        )
+      )
 			present(alert, animated: true)
 			return
 		}
