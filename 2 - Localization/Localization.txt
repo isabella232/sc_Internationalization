@@ -1,4 +1,4 @@
-➠3 - Internationalization
+➠2 - Localization
 
 👯CATIE🐸 Hey, everybody! I'm Catie! With me here is Jessy!
 👯JESSY😺 In this screencast, we're going to show you how to how to add support for a second language in your app.

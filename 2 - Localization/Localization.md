@@ -1,4 +1,12 @@
 # Intro
+
+➠2 - Localization
+
+👯CATIE🐸 Hey, everybody! I'm Catie! With me here is Jessy!  
+👯JESSY😺 In this screencast, we're going to show you how to how to add support for a second language in your app.  
+👯CATIE🐸 We'll make the assumption that you've already internationalized your app, so that all appropriate text is ready be localized. We've got another screencast on that topic if you need to learn it.  
+👯JESSY😺 We'll be using an app called *MyFriend*, made by Fahim Farook, in which you can carry out conversations with a virtual friend. Thanks to Fahim for putting together such delightful materials!
+
 ---
 # Demo 1
 
@@ -21,6 +29,11 @@ A dialog will come up, allowing you to custom-tailor what files will be localize
 
 ---
 # Interlude 1
+➠😺JESSY😺  
+At this point, you'll have new localizable strings files for the new language you'll be supporting. However, Xcode does have the ability to automatically translate anything for you.
+
+➠You still have the task of adding the necessary translations to your new files. Let's start with the storyboard.
+
 ---
 
 # Demo 2
@@ -61,6 +74,11 @@ In the lower-right, the name of the currently-previewed language is shown. And y
 
 ---
 # Interlude 2
+➠🐸CATIE🐸  
+With your storyboard working correctly, it's time to turn your attention to your code.
+
+If you've finished the internationalization process, all the applicable text in your code will already have been extracted into a localizable strings file. The process you'll go through is the same as with the storyboard.
+
 ---
 
 # Demo 3
@@ -98,6 +116,9 @@ Other than string translation, there *might not* be that much work to do, to add
 
 ---
 # Interlude 3
+➠😺JESSY😺  
+Now there's just one tiny, but important detail left. Even though we've changed the language of our device, the App's name is still in English, on the Home screen. To localize it, you have to add a special strings file which will let you override the settings in your **Info.plist**. 
+
 ---
 
 # Demo 4
@@ -124,3 +145,8 @@ When the device is set to Spanish, the app name is MiAmigo!
 ---
 # Conclusion
 
+➠Conclusion  
+👯CATIE🐸 By now you should have a good idea of how to take an iOS project and set it up to support any number of languages.  
+👯JESSY😺 From a development perspective, it's not very complicated to add Localization support, so you should strongly consider doing it. Your biggest challenge will be finding trustworthy translators.   
+👯CATIE🐸  We wish you much success with that. And until time, Tschuss!  
+👯JESSY😺 À la prochaine!
