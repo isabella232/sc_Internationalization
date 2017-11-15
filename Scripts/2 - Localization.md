@@ -15,7 +15,7 @@ Our virtual friend Peter can already speak English, but now we'll give him the a
 
 When adding support for a new language to your app, the first thing you need to do is add the new language to your Xcode project.
 
-Select the root folder for the project in the **Project navigator**…
+Select the project in the **Project navigator**…
 > do that
 
 …and select your project in the **Projects** list.
