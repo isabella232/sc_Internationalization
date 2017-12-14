@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "My Friend Peter"; ObjectID = "2xX-hK-EHd"; */
+"2xX-hK-EHd.text" = "Mi Amigo Pedro";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "BB2-KB-tgb"; */
+"BB2-KB-tgb.text" = "Fecha";
+
+/* Class = "UILabel"; text = "Hello, my name is Peter!"; ObjectID = "Iwp-Do-MBn"; */
+"Iwp-Do-MBn.text" = "¡Hola, me llamo Pedro!";
+
+/* Class = "UILabel"; text = "Hi, Peter! How are you?"; ObjectID = "YbZ-sK-e96"; */
+"YbZ-sK-e96.text" = "¡Hola Pedro! ¿Cómo estás?";
+
+/* Class = "UILabel"; text = "Over 1,000,000 conversations. What do you want to talk about today?"; ObjectID = "tBp-Zh-bxz"; */
+"tBp-Zh-bxz.text" = "Más de 1.000.000 de conversaciones. ¿Qué quieres hablar hoy?";
+
+/* Class = "UIButton"; normalTitle = "Reply"; ObjectID = "xen-tL-50K"; */
+"xen-tL-50K.normalTitle" = "Respuesta";
