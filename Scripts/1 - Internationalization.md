@@ -1,3 +1,16 @@
+# Internationalization
+Internationalization is the process of preparing your app for support of multiple languages. Help users around the world enjoy your app!
+
+###
+* **Instructor:** Jessy Catterwaul, Catie Catterwaul  
+* **Materials Author:**  Fahim Farook 
+* **Tech Editor:** N/A
+
+### 
+* **Language:** Swift 4  
+* **Platform:** iOS 11
+* **Editor:** Xcode 9
+
 # Intro
 
 ➠1 - Internationalization

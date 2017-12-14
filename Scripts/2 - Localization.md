@@ -1,3 +1,16 @@
+# Localization
+Translating your app for a specific language or region is known as Localization. Let's learn to localize an app that already has Internationalization support.
+
+###
+* **Instructor:** Jessy Catterwaul, Catie Catterwaul  
+* **Materials Author:**  Fahim Farook 
+* **Tech Editor:** N/A
+
+### 
+* **Language:** Swift 4  
+* **Platform:** iOS 11
+* **Editor:** Xcode 9
+
 # Intro
 
 ➠2 - Localization
